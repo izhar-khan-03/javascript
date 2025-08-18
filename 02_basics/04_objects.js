@@ -28,7 +28,7 @@ const obj4 = {5: "a", 6: "b"}
 
 const obj3 = {...obj1, ...obj2, ...obj4}
 
-console.log(obj3);
+// console.log(obj3);
 
 const Users = [
     {
@@ -49,10 +49,24 @@ const Users = [
 
 Users[1].email
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+
+
+
+const course = {
+    coursename: "JavaScript",
+    price: 999,
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course    // in braces, we can change name of the key so that it is more readable and can be printed with a short name ex . const {courseInstructor: instructor} = course for const {courseInstructor} = course   which is known as DESTRUCTURING
+
+console.log(instructor);
