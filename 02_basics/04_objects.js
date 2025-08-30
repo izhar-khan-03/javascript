@@ -70,3 +70,11 @@ const course = {
 const {courseInstructor: instructor} = course    // in braces, we can change name of the key so that it is more readable and can be printed with a short name ex . const {courseInstructor: instructor} = course for const {courseInstructor} = course   which is known as DESTRUCTURING
 
 console.log(instructor);
+
+
+// {
+//     "name": "izhar",
+//     "coursename": "JavaScript",
+//     "price": "free"
+
+// }
