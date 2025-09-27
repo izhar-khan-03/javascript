@@ -84,3 +84,26 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>Your BMI is ${bmi}. ${category}</span>`;
   }
 });
+```
+
+## project 3 solution
+
+```javascript
+const clock = document.getElementById('clock');
+// const clock document.querySelector('#clock')
+
+
+
+setInterval(function(){
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+
+  clock.innerHTML = date.toLocaleTimeString();
+
+},1000)
+```
+
+## project 4 solution
+
+```javascript
+```
